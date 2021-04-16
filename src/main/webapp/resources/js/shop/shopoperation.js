@@ -6,7 +6,6 @@ $(function () {
     var initUrl = '/CampusStore_war_exploded/shopadmin/getshopinitinfo';
     var registerShopUrl = '/CampusStore_war_exploded/shopadmin/registershop';
     getShopInitInfo();
-    alert(initUrl);
     function getShopInitInfo() {
         $.getJSON(initUrl, function(data) {
             if(data.success) {

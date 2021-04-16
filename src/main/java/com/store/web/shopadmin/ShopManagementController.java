@@ -82,7 +82,7 @@ public class ShopManagementController {
         CommonsMultipartFile shopImg = null;
         CommonsMultipartResolver commonsMultipartResolver = new CommonsMultipartResolver(
                 request.getSession().getServletContext());
-        if(commonsMultipartResolver.isMultipart(request)) {
+        if (commonsMultipartResolver.isMultipart(request)) {
             MultipartHttpServletRequest multipartHttpServletRequest = (MultipartHttpServletRequest) request;
             shopImg = (CommonsMultipartFile) multipartHttpServletRequest.getFile("shopImg");
         } else {
