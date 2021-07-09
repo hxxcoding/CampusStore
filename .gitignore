@@ -26,5 +26,5 @@ catalina.base_IS_UNDEFINED
 *.tmp
 
 # system ignore
-.DS_Store
+*/.DS_Store
 Thumbs.db

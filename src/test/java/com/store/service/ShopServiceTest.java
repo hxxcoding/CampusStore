@@ -28,6 +28,29 @@ public class ShopServiceTest extends BaseTest {
     private ShopService shopService;
 
     @Test
+    public void testGetShopList() {
+        Shop shopCondition = new Shop();
+        ShopCategory sc = new ShopCategory();
+        sc.setShopCategoryId(3L);
+        shopCondition.setShopCategory(sc);
+        ShopExecution se = shopService.getShopList(shopCondition, 0, 2);
+        System.out.println(se.getShopList().size());
+        System.out.println(se.getCount());
+
+    }
+
+    @Test
+    public void testModifyShop() throws FileNotFoundException {
+        Shop shop = shopService.getByShopId(1L);
+        shop.setShopId(1L);
+        shop.setShopName("修改后的名称");
+        File shopImg = new File("/Users/hxx/Desktop/xiaohu.jpg");
+        InputStream is = new FileInputStream(shopImg);
+        ShopExecution shopExecution = shopService.modifyShop(shop, is, "my.jpg");
+        System.out.println("新的图片地址为：" + shopExecution.getShop().getShopImg());
+    }
+
+    @Test
     public void testAddShop() throws FileNotFoundException {
         Shop shop = new Shop();
         shop.setShopId(2L);

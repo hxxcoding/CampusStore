@@ -1,0 +1,36 @@
+2021-04-23 11:42:50.699 [main] DEBUG com.store.dao.ShopDao.queryShopList - ==>  Preparing: SELECT shop_id, owner_id, area_id, shop_category_id, parent_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, longitude, latitude, priority, create_time, last_edit_time, enable_status, advice FROM tb_shop WHERE shop_category_id = ? ORDER BY priority DESC LIMIT ?,?; 
+2021-04-23 11:42:50.835 [main] DEBUG com.store.dao.ShopDao.queryShopList - ==> Parameters: 2(Long), 1(Integer), 2(Integer)
+2021-04-23 11:42:50.943 [main] DEBUG com.store.dao.ShopDao.queryShopList - <==      Total: 0
+2021-04-23 11:42:50.959 [main] DEBUG com.store.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop WHERE shop_category_id = ? 
+2021-04-23 11:42:50.961 [main] DEBUG com.store.dao.ShopDao.queryShopCount - ==> Parameters: 2(Long)
+2021-04-23 11:42:50.967 [main] DEBUG com.store.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-04-23 11:43:24.769 [main] DEBUG com.store.dao.ShopDao.queryShopList - ==>  Preparing: SELECT shop_id, owner_id, area_id, shop_category_id, parent_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, longitude, latitude, priority, create_time, last_edit_time, enable_status, advice FROM tb_shop WHERE shop_category_id = ? ORDER BY priority DESC LIMIT ?,?; 
+2021-04-23 11:43:24.818 [main] DEBUG com.store.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 1(Integer), 2(Integer)
+2021-04-23 11:43:24.851 [main] DEBUG com.store.dao.ShopDao.queryShopList - <==      Total: 0
+2021-04-23 11:43:24.860 [main] DEBUG com.store.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop WHERE shop_category_id = ? 
+2021-04-23 11:43:24.861 [main] DEBUG com.store.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2021-04-23 11:43:24.864 [main] DEBUG com.store.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-04-23 11:43:50.510 [main] DEBUG com.store.dao.ShopDao.queryShopList - ==>  Preparing: SELECT shop_id, owner_id, area_id, shop_category_id, parent_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, longitude, latitude, priority, create_time, last_edit_time, enable_status, advice FROM tb_shop WHERE shop_category_id = ? ORDER BY priority DESC LIMIT ?,?; 
+2021-04-23 11:43:50.574 [main] DEBUG com.store.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 2(Integer)
+2021-04-23 11:43:50.627 [main] DEBUG com.store.dao.ShopDao.queryShopList - <==      Total: 1
+2021-04-23 11:43:50.709 [main] DEBUG com.store.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop WHERE shop_category_id = ? 
+2021-04-23 11:43:50.709 [main] DEBUG com.store.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2021-04-23 11:43:50.712 [main] DEBUG com.store.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-04-23 11:44:37.246 [main] DEBUG com.store.dao.ShopDao.queryShopList - ==>  Preparing: SELECT shop_id, owner_id, area_id, shop_category_id, parent_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, longitude, latitude, priority, create_time, last_edit_time, enable_status, advice FROM tb_shop WHERE shop_category_id = ? ORDER BY priority DESC LIMIT ?,?; 
+2021-04-23 11:44:37.314 [main] DEBUG com.store.dao.ShopDao.queryShopList - ==> Parameters: 3(Long), 0(Integer), 2(Integer)
+2021-04-23 11:44:37.369 [main] DEBUG com.store.dao.ShopDao.queryShopList - <==      Total: 2
+2021-04-23 11:44:37.413 [main] DEBUG com.store.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop WHERE shop_category_id = ? 
+2021-04-23 11:44:37.414 [main] DEBUG com.store.dao.ShopDao.queryShopCount - ==> Parameters: 3(Long)
+2021-04-23 11:44:37.416 [main] DEBUG com.store.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-04-23 11:44:53.620 [main] DEBUG com.store.dao.ShopDao.queryShopList - ==>  Preparing: SELECT shop_id, owner_id, area_id, shop_category_id, parent_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, longitude, latitude, priority, create_time, last_edit_time, enable_status, advice FROM tb_shop WHERE shop_category_id = ? ORDER BY priority DESC LIMIT ?,?; 
+2021-04-23 11:44:53.667 [main] DEBUG com.store.dao.ShopDao.queryShopList - ==> Parameters: 3(Long), 0(Integer), 1(Integer)
+2021-04-23 11:44:53.700 [main] DEBUG com.store.dao.ShopDao.queryShopList - <==      Total: 1
+2021-04-23 11:44:53.712 [main] DEBUG com.store.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop WHERE shop_category_id = ? 
+2021-04-23 11:44:53.712 [main] DEBUG com.store.dao.ShopDao.queryShopCount - ==> Parameters: 3(Long)
+2021-04-23 11:44:53.715 [main] DEBUG com.store.dao.ShopDao.queryShopCount - <==      Total: 1
+2021-04-23 11:50:28.047 [main] DEBUG com.store.dao.ShopDao.queryShopList - ==>  Preparing: SELECT shop_id, owner_id, area_id, shop_category_id, parent_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, longitude, latitude, priority, create_time, last_edit_time, enable_status, advice FROM tb_shop WHERE shop_category_id = ? ORDER BY priority DESC LIMIT ?,?; 
+2021-04-23 11:50:28.087 [main] DEBUG com.store.dao.ShopDao.queryShopList - ==> Parameters: 3(Long), 0(Integer), 2(Integer)
+2021-04-23 11:50:28.161 [main] DEBUG com.store.dao.ShopDao.queryShopList - <==      Total: 2
+2021-04-23 11:50:28.177 [main] DEBUG com.store.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop WHERE shop_category_id = ? 
+2021-04-23 11:50:28.178 [main] DEBUG com.store.dao.ShopDao.queryShopCount - ==> Parameters: 3(Long)
+2021-04-23 11:50:28.187 [main] DEBUG com.store.dao.ShopDao.queryShopCount - <==      Total: 1

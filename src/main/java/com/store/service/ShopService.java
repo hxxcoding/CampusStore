@@ -8,7 +8,13 @@ import java.io.File;
 import java.io.InputStream;
 
 public interface ShopService {
+    ShopExecution getShopList(Shop shopCondition, int pageIndex, int pageSize);
+
     ShopExecution addShop(Shop shop, InputStream shopImgInputStream, String fileName);
+
+    Shop getByShopId(long shopId);
+
+    ShopExecution modifyShop(Shop shop, InputStream shopImgInputStream, String fileName) throws RuntimeException;
 }
 
 
